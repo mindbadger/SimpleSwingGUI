@@ -16,7 +16,7 @@ define 'SimpleSwingGUI', :layout=>StandardLayout do
   #compile('src')
   
   #test('test').with(JUNIT, JBEHAVE, SWING_JBEHAVE)
-  test.with(JUNIT, JBEHAVE, SWING_JBEHAVE, COMMONS_COLLECTIONS, FREEMARKER, COMMONS_LANG)
+  test.with(JUNIT, JBEHAVE, SWING_JBEHAVE, COMMONS_COLLECTIONS, FREEMARKER, COMMONS_LANG, COMMONS_IO, HAMCREST)
   
   pack = package(:jar)  
 end
